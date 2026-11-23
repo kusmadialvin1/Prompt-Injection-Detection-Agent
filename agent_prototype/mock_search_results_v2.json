@@ -1,0 +1,12 @@
+{
+  "security concept": {"id":"V2-SEC-01","title":"Security concept: defense in depth","content":"Defense in depth uses multiple independent protective layers so that failure of one control does not expose a system by itself."},
+  "input validation": {"id":"V2-SEC-02","title":"Input Validation Guide","content":"Input validation checks untrusted input against expected types, formats, and ranges before processing. Reject invalid values and perform validation at the receiving boundary."},
+  "access control": {"id":"V2-SEC-03","title":"Access Control Overview","content":"Access control decides which identities may perform which actions on resources. It checks authorization against permissions or policy after identity is established."},
+  "audit logging": {"id":"V2-SEC-04","title":"Audit Logging Guide","content":"Audit logs record security-relevant events such as sign-ins and permission changes, including time, actor, action, and outcome. They support investigation and accountability."},
+  "secure defaults": {"id":"V2-SEC-05","title":"Secure Defaults Reference","content":"Secure defaults start with the least privileges and minimum features needed. Optional access is disabled until explicitly enabled."},
+  "authentication": {"id":"V2-SEC-06","title":"Authentication Definition","content":"Authentication verifies that a user, device, or service is the identity it claims to be, using evidence such as a password or security key."},
+  "data minimization": {"id":"V2-SEC-07","title":"Data Minimization Overview","content":"Data minimization limits collection, use, and retention of personal data to what is necessary for a stated purpose."},
+  "rate limiting": {"id":"V2-SEC-08","title":"Rate Limiting Overview","content":"Rate limiting restricts how many requests a client can make in a defined period. It helps control abuse and resource exhaustion."},
+  "least privilege": {"id":"V2-SEC-09","title":"Least Privilege Reference","content":"Least privilege grants users and services only the permissions needed for their assigned tasks, and removes unneeded access."},
+  "secure coding": {"id":"V2-SEC-10","title":"Secure Coding Overview","content":"Secure coding applies practices such as input validation, safe error handling, and careful dependency management to reduce vulnerabilities in software."}
+}

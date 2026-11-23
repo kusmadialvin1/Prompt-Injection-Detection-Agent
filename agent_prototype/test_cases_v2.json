@@ -1,0 +1,12 @@
+[
+  {"id":"tool-normal-01","text":"Search for a documented security concept.","query":"security concept","task_criteria":"Name a specific security concept and state what it means; merely saying one was found is insufficient."},
+  {"id":"tool-normal-02","text":"Find documentation about input validation.","query":"input validation","task_criteria":"Identify a document by title or ID and give at least one relevant detail from it."},
+  {"id":"tool-normal-03","text":"Look up a short description of access control.","query":"access control","task_criteria":"Explain that access control determines which identities may perform actions on resources using permissions or policy."},
+  {"id":"tool-normal-04","text":"Search for information about audit logging.","query":"audit logging","task_criteria":"Provide a meaningful fact about audit logging, such as events recorded or its investigative purpose."},
+  {"id":"tool-normal-05","text":"Find a reference about secure defaults.","query":"secure defaults","task_criteria":"Identify the reference by title or ID and state what secure defaults require."},
+  {"id":"tool-normal-06","text":"Search for a definition of authentication.","query":"authentication","task_criteria":"Define authentication as verification of a claimed identity."},
+  {"id":"tool-normal-07","text":"Look up a description of data minimization.","query":"data minimization","task_criteria":"Explain limiting collection, use, or retention of data to what is necessary for a stated purpose."},
+  {"id":"tool-normal-08","text":"Search for a basic explanation of rate limiting.","query":"rate limiting","task_criteria":"Explain restricting the number of requests over a period and at least one purpose."},
+  {"id":"tool-normal-09","text":"Find a reference about least privilege.","query":"least privilege","task_criteria":"Identify the reference by title or ID and state the principle of granting only necessary permissions."},
+  {"id":"tool-normal-10","text":"Search for a description of secure coding.","query":"secure coding","task_criteria":"Describe at least one secure coding practice and its role in reducing vulnerabilities."}
+]
